@@ -84,7 +84,20 @@ Esses comandos fazem a mesma coisa
 
         $ ionic emulate android --device
         $ ionic run android --emulator
+        
+### Rodando uma Platform
+        //Abreviatura de livereload ou -l
+        $ ionic run android -lcs 
+        
+## Build
+Gera o arquivo pronto para publicar na loja (Appstore, Playstore)
 
-  
+### --nohooks
+
+Não adiciona os hooks do cordova
+        
+        $ionic build android
+
+
 
 
