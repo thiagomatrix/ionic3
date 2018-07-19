@@ -96,7 +96,7 @@ Gera o arquivo pronto para publicar na loja (Appstore, Playstore)
 
 Não adiciona os hooks do cordova
         
-        $ionic build android
+        $ionic cordova build android
 
 
 
