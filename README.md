@@ -17,15 +17,15 @@
 
 Cria um diretório com todos os arquivos para rodar naquela plataforma
 
-$ ionic platform add + (plataforma)@(versão) --save (salva no xml) 
+$ ionic platform cordova add + (plataforma)@(versão) --save (salva no xml) 
 
 ### Android
         
-        $ionic platform add android@6.1.2 --save
+        $ionic cordova platform add android@6.1.2 --save
 
-###IOS
+### IOS
 
-        $ionic platform add ios@6.1.2 --save
+        $ionic cordova platform add ios@6.1.2 --save
 
 ## State
 
