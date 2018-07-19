@@ -4,14 +4,28 @@
 
         $ ionic start nome_do_projeto nome_do _template —a--name “nome_da_app” —id info.thiagobraga.nome_do_projeto
 
+## Add Page
+
+        $ ionic g page nome_da_pagina
+        
 ## Add Plugin (ex: leitor e gerador de Código de barras
 
         $ ionic cordova plugin add phonegap-plugin-barcodescanner
         $ npm install --save @ionic-native/barcode-scanner
 
-## Add Page
+## Add Platform
 
-        $ ionic g page nome_da_pagina
+Cria um diretório com todos os arquivos para rodar naquela plataforma
+
+$ ionic platform add + (plataforma)@(versão) --save (salva no xml) 
+
+### Android
+        
+        $ionic platform add android@6.1.2 --save
+
+###IOS
+
+        $ionic platform add ios@6.1.2 --save
 
 ## State
 
@@ -62,9 +76,14 @@ Roda em um dispositivo ou emulador ou pode passar qual o ID do algo do dispositi
 
 ### Emulate
 
+        $ionic help emulate
+
 Similar ao "run" porém roda em um emulador ao invés de um dispositivo
       
-      
+Esses comandos fazem a mesma coisa 
+
+        $ ionic emulate android --device
+        $ ionic run android --emulator
 
   
 
